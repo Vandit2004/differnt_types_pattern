@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href='https://cdn.boxicons.com/fonts/basic/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <h1>Different type of Patterns</h1>
+            <div class="box1">
+                <input type="number" placeholder="enter the number"  id="number"/>
+                <select name="" id="selectValue" style="margin-bottom: 20px;">
+                    <option value="odd">odd</option>
+                    <option value="even">even</option>
+                    <option value="prime">prime</option>
+                </select>
+            </div>
+            <div class="firstRow">
+                <button type="submit"  id="square"> <i  class="fa-regular fa-square"></i></button>
+                <button type="submit" id="triangle"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-triangle-icon lucide-triangle"><path d="M13.73 4a2 2 0 0 0-3.46 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z"/></svg></button>
+                <button type="submit" id="revtriangle"><i class="fa-solid fa-play fa-rotate-90 text-black"></i></button>
+                <button type="submit" id="righttriangle"><i class='bxr  bx-right-angle-triangle bx-flip-horizontal text-black'></i></button>
+
+            </div>
+            <div class="secondRow">
+                <button type="submit" id="diamond"><i class="fa-solid fa-diamond"></i></button>
+                <button type="submit" id="hourglass"><svg xmlns="http://www.w3.org/2000/svg" height="21px" class="rounded-md" viewBox="0 0 960 960" width="21px" fill="#1f1f1f"><path d="M480 480 0 0h960L480 480Z"/><path d="M480 480 0 960h960L480 480Z"/></svg></button>
+                <button type="submit" id="lefttriangle"><img src="leftTriangle.png" height="20px"></button>
+                <button type="submit" id="revlefttriangle"><img src="inverted.png" height="20px"></button>
+            </div>
+            <button type="submit" id="reset">Reset</button>
+        </div> 
+        <div class="answer">
+            <p id="para"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
